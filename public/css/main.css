@@ -1,0 +1,29 @@
+.main-container {
+    display: flex;
+}
+
+.left-nav {
+    flex: 15;
+}
+
+.content {
+    flex: 85;
+}
+
+.left-nav ul {
+    margin-top: 50px;
+}
+
+.left-nav ul li {
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-left: 30px;
+    padding: 0 40px;
+    background-color: #F4F4F5;
+}
+
+.glyphicon {
+    margin-right: 10px;
+}

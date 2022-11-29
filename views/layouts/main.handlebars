@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex Travel</title>
+    {{!-- 引入基本样式 --}}
+    <link rel="stylesheet" href="/css/common.css">
+    {{!-- 引入bootstrap.css --}}
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    {{!-- 引入main.css --}}
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <div class="panel panel-info" style="height: 100vh; margin-bottom: 0">
+        <div class="panel-heading">Hex Travel</div>
+        <div class="panel-body main-container">
+            <div class="left-nav">
+                <div class="logo">
+                    <h1>
+                        <img src="/img/logo.png" alt="logo">
+                        <span style="font-size: 14px;">回忆校园往事~~</span>
+                    </h1>
+
+                </div>
+                <ul class="nav nav-pills nav-stacked left-ul">
+                    <li role="presentation">
+                        <a href="http://localhost:3000">
+                            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>主页</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="http://localhost:3000/about">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>关于</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                {{{body}}}
+            </div>
+        </div>
+    </div>
+    <script>
+        console.log
+    </script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
